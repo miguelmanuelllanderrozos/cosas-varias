@@ -1,0 +1,38 @@
+/*seleccion universal*/
+*{
+	margin:3px;
+}
+/*Seleccion de elemento*/
+h1{
+		color:grb(50,50,50);
+		font-style:italic;
+}
+/*seleccion de identificador*/
+#introduccion{
+		border-style:dotted;
+		padding:1em;
+}
+/*selectores de clase*/
+.positivo{
+		color:green;
+		font-weight:bolder;
+			
+}
+.medio{
+		color:blue;
+		font-weight:bolder;
+}
+.negativo{
+		color:red;
+		font-weight:bolder;
+}
+/*seleccion de atributo*/
+input[type]{
+		background-color:rgb(196,248,196);
+}
+
+input[type=text]{
+		color:rgb(0,98,255);
+		font-weight:bolder;
+		
+}
